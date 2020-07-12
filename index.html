@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALΞXON Landing Page</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>ALΞXON</h1>
+        <h2>Photographer / Videographer / Digital Content Creator</h2>
+    </header>
+
+    <section class="who_I_Am">
+        <h3>Who I Am</h3>
+        <div class="who_I_Am_Body">
+            <p class = "WhoIAmParagraph">
+                I’m Alexon, a French artist based between Montreal and the French Riviera.
+                 I’ve specialized in videography, photography and digital design for the past 5 years. 
+                 I’ll help bring your vision and ideas to life, through content creation and branding. 
+            <a href="#work">Click here to check out some of my creations below!</a>
+            </p>
+            <img src="img/WhoAmI2cropped.jpg" class="WhoIAmImg">
+        </div>
+    </section>
+
+    <section class="work" id="work">
+        <h3 class="work-title">My Work</h3>
+        <hr>
+        
+        <!-- insert some JS to make a picture we click on here bigger-->
+        <section class="digital-design">
+            <img src="img/iconmonstr-paintbrush-10.svg" alt="" class="icon">
+            <h2>Digital Design</h2>
+            <p>My goal is to bring your business or brand to the next level 
+                with professional-looking designs and edits, 
+                boosting the appeal of your visuals.</p>
+            <div class="digital-design-grid">
+                <img src="img/1-raw.jpg" class="grid-img grid-img-1">
+                <img src="img/1-edited.jpg" class="grid-img grid-img-2">
+                <img src="img/2-raw.jpg" class="grid-img grid-img-3">
+                <img src="img/2-edited.jpg" class="grid-img grid-img-4">
+                <img src="img/3-raw.jpg" class="grid-img grid-img-5">
+                <img src="img/3-edited.jpg" class="grid-img grid-img-6">
+                <img src="img/4-raw.jpg" class="grid-img grid-img-7">
+                <img src="img/4-edited.jpg" class="grid-img grid-img-8">
+            </div>
+        </section>
+        <section class="film">
+            <img src="img/iconmonstr-video-9-72.png" alt="" class="icon film-icon">
+            <h2>Videography</h2>
+            <p>Using my drone and video-editing skills, I will best convey your vision and brand 
+                or immortalize an event that is dear to you.</p>
+            <div class="video-div">
+                <video width="480" height="320" controls autoplay> <!-- add this: autoplay-->
+                <source src="vid/A24hrLayoverinParis.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+              </div>
+        </section>
+        <section class="photography">
+            <img src="img/iconmonstr-photo-camera-4.svg" alt="" class="icon">
+            <h2 class="work-subheader">Photography</h2>
+            <p>I will shed the best light on your product to boost its marketing potential. 
+                My services include: product, nature, model, professional headshots, and events</p>
+            <div class="photography-flex-box">
+                <img src="img/Photography1.jpg" class="flex-img flex-img-1">
+                <img src="img/Photography2.jpg" class="flex-img flex-img-2">
+                <img src="img/Photography3.jpg" class="flex-img flex-img-3">
+            </div>
+        </section>
+    </section>
+
+    <footer>
+        <h4>Reach out to me for services</h4>
+        <h4>Or</h4>
+        <h4>Follow me for more content!</h4>
+        <a href="mailto:alexandre.buisson@mail.mcgill.ca" class="email-link">alexandre.buisson@mail.mcgill.ca</a>
+        <a class="social-list__link" href = "https://www.instagram.com/alexoonnn/">
+            <img src="img/iconmonstr-instagram-2.svg" alt="" class="icon instagram-icon">
+            <span>@alexoonnn</span>
+        </a>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

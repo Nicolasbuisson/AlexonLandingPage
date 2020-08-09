@@ -2,6 +2,5 @@
 
 Created a website to highlight ALEXON's creations and services using HTML and CSS.
 
-I did not deploy this website, please download this repo and open the index.html file in a web browser to view the website.
-
-I was unable to push the video to the repo due to it's large size.
+I deployed this website with github pages: https://nicolasbuisson.github.io/AlexonLandingPage/
+I pushed the video file using git lfs but it doesn't seem to load on the website :/
